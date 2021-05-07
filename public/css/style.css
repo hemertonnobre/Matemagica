@@ -1,25 +1,35 @@
 body {
-    background: #0e1013;
-  }
-  h1 {
-    max-width: 480px;
-    text-align: center;
-    margin: 60px auto;
-    font-family: 'Courier New', Courier, monospace;
-    color: #fff;
-    
-  }
-  h1::after{
-    content: '|';
-    margin-left: 5px;
+  background: #0e1013;
+}
+
+header {
+  background-image: url(../img/mate1.jpg);
+}
+
+.container{
+  display:grid;
+}
+
+h1 {
+  max-width: 480px;
+  text-align: center;
+  margin: 60px auto;
+  font-family: 'Courier New', Courier, monospace;
+  color: redclc;
+}
+
+h1::after {
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+  0%, 100% {
     opacity: 1;
-    animation:pisca .7s infinite;
   }
-  @keyframes pisca{
-    0%, 100%{
-      opacity: 1;
-    }
-    50%{
-      opacity: 0;
-    }
+  50% {
+    opacity: 0;
   }
+}
