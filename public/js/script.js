@@ -9,5 +9,5 @@ function typewriter(elemento){
     });
 }
 
-const titulo = document.querySelector('h1')
+const titulo = document.querySelector('.msg1')
     typewriter(titulo);
