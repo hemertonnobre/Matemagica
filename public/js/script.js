@@ -1,5 +1,5 @@
 
-let menssagens = ['pense em um Número','Some a esse Número:','Multiplique o resultado por:','Agora some:','Divida tudo por:','Subtraia o número que voçê pensou','O resultado é:']
+let menssagens = ['pense em um Número:','Some a esse Número:','Multiplique por:','Agora some:','Divida tudo por:','Subtraia o número que voçê pensou','O resultado é:']
 const botao = document.querySelector('.button');
 //let iniciar = document.querySelector('.button');
 //iniciar.addEventListener('click',typewriter(menssagens[0]))
@@ -43,7 +43,7 @@ function passo5(divide){
 function passo6(resultado){
     console.log(resultado);
     typewriter(menssagens[6]+resultado);
-    botao.setAttribute("onclick","passo1();");
+    botao.setAttribute("onclick","iniciar();");
     botao.innerHTML = 'retornar'
 }
 function typewriter(menssagen){
