@@ -60,7 +60,7 @@ function typewriter(menssagen){
      
 }
 function numero(){
-    return Math.floor(Math.random()*10)+ 4;
+    return Math.floor(Math.random()*10)+ 2;
 }
 
 
