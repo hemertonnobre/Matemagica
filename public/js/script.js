@@ -1,5 +1,5 @@
 
-let menssagens = ['pense em um Número:','Some a esse Número:','Multiplique por:','Agora some:','Divida tudo por:','Subtraia o número que voçê pensou','O resultado é:']
+let menssagens = ['Pense em um Número:','Some a esse Número:','Multiplique por:','Agora some:','Divida tudo por:','Subtraia o número que voçê pensou','O resultado é:']
 const botao = document.querySelector('.button');
 //let iniciar = document.querySelector('.button');
 //iniciar.addEventListener('click',typewriter(menssagens[0]))
@@ -60,7 +60,7 @@ function typewriter(menssagen){
      
 }
 function numero(){
-    return Math.floor(Math.random()*10)+ 1;
+    return Math.floor(Math.random()*10)+ 4;
 }
 
 
