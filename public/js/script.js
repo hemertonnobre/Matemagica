@@ -63,17 +63,3 @@ function numero(){
     return Math.floor(Math.random()*10)+ 2;
 }
 
-
-/*function typewriter(elemento){
-    const textoArray = elemento.innerHTML.split('');
-    elemento.innerHTML = '';
-    textoArray.forEach(function(letra, i){
-        setTimeout(function(){
-            elemento.innerHTML += letra;
-        },);
-    });
-}
-
-const titulo = document.querySelector('.msg1')
-    typewriter(titulo);
-*/
